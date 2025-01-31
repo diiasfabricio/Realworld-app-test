@@ -1,4 +1,7 @@
 Feature: New User registration
+    To register on the platform for the first time, 
+    users must fill out all fields with valid data.
+    
     Scenario: Successful Sing Up
         Given I am on the sing up page
         When I enter valid values in user informatons box
@@ -11,6 +14,9 @@ Feature: New User registration
         Then I shouldn't be able to register
 
 Feature: Login
+    To login to the platform, 
+    user must enter valid username and password.
+
     Scenario: Failed login
         Given I am on the login page
         When I enter invalid credentials
