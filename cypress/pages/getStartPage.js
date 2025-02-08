@@ -2,7 +2,7 @@ class GetStartPage {
 
     selectorsList() {
         const selectors = {
-            getStartGrid: "[data-test='user-onboarding-dialog-title']",
+            getStartGrid: "[fill-rule='nonzero']",
             
         }
 
