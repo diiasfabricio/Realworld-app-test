@@ -34,7 +34,7 @@ class SingUpPage {
     
     saveForm() {
         cy.get(this.selectorsList().subimitButton).click({force: true})
-       
+        cy.get('body').should('have.length', 1)
     }
 
     fillIncompletePersonalDetails(firstName, password, confirmPassword ) {

@@ -1,14 +1,18 @@
 {
   "userSuccess": {
-<<<<<<< HEAD
-    "username": "Heath93",
-=======
-    "username": "diiasfabricio",
->>>>>>> bf41f2840f66d8f9779870237c9d5cd153ea2d43
+    "username": "Judah_Dietrich50",
     "password": "s3cret"
   },
+
+
   "userFail": {
     "username": "test",
     "password": "test"
+  },
+
+  "receivingUser" : {
+    "username" : "Ted Parisian"
   }
+
+
 }
